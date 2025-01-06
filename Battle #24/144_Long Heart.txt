@@ -1,0 +1,30 @@
+<p a><p b><p c><p d>
+<style>
+  body,p{
+    background:#62306D;
+    margin:0;
+  }
+  p{
+    background:#F7EC7D;
+    position:absolute;
+    border-radius:37px 37px 0 0;
+    width:75;
+    height:200;
+    bottom:0;
+  }
+  [b]{
+    rotate:90deg;
+    top:162;
+    left:62;
+  }
+  [c],[d]{
+    background:#F7EC7D;
+    left:75;
+    bottom:74;
+  }
+  [d]{
+    background:#62306D;
+    bottom:75;
+    border-radius:0 25px;
+  }
+</style>
