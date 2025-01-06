@@ -1,0 +1,21 @@
+<p><p a><p b><p a><p>
+<style>
+  body {
+    display:flex;
+    background:#F5D6B4;
+    justify-content:center;
+  }
+  p{
+    align-self:center;
+    margin:0;
+    background:#D86F45;
+    width:50;
+    height:50;
+  }
+  [a]{
+    height:150;
+  }
+  [b]{
+    height:250;
+  }
+</style>
