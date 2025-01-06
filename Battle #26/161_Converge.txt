@@ -1,0 +1,23 @@
+<p><p a><p b>
+<style>
+  body{
+    background:#E3516E;
+    display:grid;
+    place-items:center;
+  }
+  p{
+    position:absolute;
+    width:184;
+    height:184;
+    background:#FADE8B;
+  }
+  [a],[b]{
+    background:#E3516E;
+    width:30px;
+    height:265px;
+    rotate:45deg;
+  }
+  [b]{
+    rotate:-45deg;
+  }
+</style>
