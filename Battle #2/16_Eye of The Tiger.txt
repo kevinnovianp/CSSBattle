@@ -1,0 +1,25 @@
+<div><p a></div>
+<style>
+  body,div{
+    margin:0;
+    background:#0B2429;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div{
+    width:200;
+    height:200;
+    rotate:45deg;
+    background:#998235;
+    border-radius:100px 0;
+  }
+  [a]{
+    width:50;
+    height:50;
+    background:#0B2429;
+    border-radius:50%;
+    border:solid 45px #F3AC3C;
+    box-shadow:0 0 0 20px #0B2429;
+  }
+</style>
