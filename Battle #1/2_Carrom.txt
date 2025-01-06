@@ -1,0 +1,29 @@
+<p a><p b><p c><p d>
+<style>
+  body{
+    background:#62374e;margin:0;position:relative;
+  }
+  p {
+    width:50;
+    height:50;
+    margin:0;
+    background:#fdc57b;
+    position:absolute;
+  }
+  [a]{
+    top:50;
+    left:50;
+  }
+  [b]{
+    right:50;
+    top:50;
+  }
+  [c]{
+    left:50;
+    bottom:50;
+  }
+  [d]{
+    right:50;
+    bottom:50;
+  }
+</style>
