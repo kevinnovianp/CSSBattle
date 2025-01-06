@@ -1,0 +1,20 @@
+<div a></div><div b></div>
+<style>
+  body{
+    background:#172D2C;
+    display:flex;
+  }
+  [a]{
+    width:180;
+    height:130;
+    background:#E9AF53;
+    transform:translate(12px, 109.5px) skewY(20deg);
+  }
+  [b]{
+    border-left:180px solid #E9AF53;
+    border-top:65px solid transparent;
+    border-bottom:65px solid transparent;
+    height:0;
+    translate:12px 12px;
+  }
+</style>
