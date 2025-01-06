@@ -1,0 +1,37 @@
+<p a><p b id="a"><p c id="a">
+<p d id="b"><p e id="b"><style>
+  body{
+    margin:0;
+    background:#F5E3B5;
+    display:grid;
+  }
+  p{
+    position:absolute;
+    background:#469DBA;
+  }
+  [a]{
+    width:240;
+    height:60;
+    place-self:center;
+  }
+  #a{
+    width:120;
+    height:120;
+    right:80;
+    border-radius:120px 0 0 0;
+  }
+  #b{
+    width:60;
+    height:60;
+    right:80;
+    border-radius:60px 0 0 0;
+    background:#F5E3B5;
+  }
+  [b],[d]{
+    bottom:45;
+  }
+  [c],[e]{
+    top:45;
+    transform:scaleY(-1)
+  }
+</style>
