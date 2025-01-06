@@ -1,0 +1,49 @@
+<style>
+  body{
+    background-color: #ffed99;position: relative;
+  }
+  div{
+    position: absolute;
+  }
+  .div1 {
+    width: 27px;
+    height: 26px;
+    background: #000000;
+    border-end-end-radius: 27px;
+    top: 95;
+    left: 132;
+  }
+  .div2 {
+    width: 178px;
+    height: 178px;
+    background: #3f8627;
+    border-end-end-radius: 178px;
+    top: 53;
+    left: 159;
+  }
+  .div3 {
+    width: 110px;
+    height: 110px;
+    background: #9f3333;
+    border-end-start-radius: 110px;
+    top: 121;
+    left: 49;
+  }
+  .div4 {
+    width: 67px;
+    height: 67px;
+    background: #f48b26;
+    border-start-start-radius: 67px;
+    bottom: 163;
+    left: 49;
+  }
+  .div5 {
+    width: 43px;
+    height: 41px;
+    background: #f48b26;
+    border-start-end-radius: 42px;
+    bottom: 189;
+    left: 116;
+  }
+</style>
+<div class="div1"></div><div class="div2"></div><div class="div3"></div><div class="div4"></div><div class="div5"></div>
