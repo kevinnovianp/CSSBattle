@@ -1,0 +1,30 @@
+<p a><p b><p c>
+<style>
+  body{
+    background:#191210;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  [b]{
+    background:#84271C;
+    width:50;
+    height:50;
+    border-radius:50%;
+    border:25px solid #191210;
+    box-shadow:0 0 0 20px #ECA03D;
+    z-index:1;
+  }
+  [a],[c]{
+    width:60;
+    height:60;
+    border-radius:50%;
+    border:20px solid;
+    border-color:#ECA03D #ECA03D #191210 #191210;
+    rotate:135deg;
+  }
+  [c]{
+    rotate:-45deg;
+  }
+</style>
