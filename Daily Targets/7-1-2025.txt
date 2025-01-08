@@ -1,0 +1,30 @@
+<a x><span y></a>
+<a y><span x></a>
+<a x><span y></a>
+<style>
+  body{
+    background:#4A9A86;
+    display:flex;
+    align-items:center;
+    margin:0 50px;
+    justify-content:space-around;
+  }
+  a{
+    width:80;
+    height:80;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  span{
+    width:40;
+    height:40;
+    border-radius:50%;
+  }
+  [x]{
+    background:#4C4C6B;
+  }
+  [y]{
+    background:#FAE29E;
+  }
+</style>
