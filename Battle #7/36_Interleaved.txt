@@ -1,0 +1,22 @@
+<p><p b><p><p b><p>
+<style>
+  body{
+    background:#1A4341;
+    display:flex;
+    justify-content:space-evenly;
+    margin:0;
+  }
+  p{
+    margin:0;
+    width:50;
+    height:200;
+    background:#F3AC3C;
+    align-self:end;
+    border-radius:25px 25px 0 0;
+  }
+  [b]{
+    background:#998235;
+    align-self:start;
+    border-radius:0 0 25px 25px;
+  }
+</style>
