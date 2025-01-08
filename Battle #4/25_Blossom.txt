@@ -1,0 +1,27 @@
+<div><p a><p b></div><div r><p a><p b></div>
+<style>
+  body{
+    background:#998235;
+    display:flex;
+    place-items:center;
+    justify-content:center;
+  }
+  div{
+    padding:0 10;
+  }
+  p{
+    margin:0;
+    width:80;
+    height:100;
+    background:#1A4341;
+    border-radius:0 50px;
+  }
+  [b]{
+    margin-top:20;
+    height:60;
+    background:#F3AC3C;
+  }
+  [r]{
+    scale:1 -1;
+  }
+</style>
