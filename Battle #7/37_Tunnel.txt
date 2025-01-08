@@ -1,0 +1,24 @@
+<div a><div b><div c></div></div></div>
+<style>
+  body,div{
+    background:#6592CF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  [a],[c]{
+    width:250;
+    height:250;
+    background:#243D83;
+  }
+  [b],[c]{
+    rotate:15deg;
+    width:150;
+    height:150;
+  }
+  [c]{
+    width:75;
+    height:75;
+  }
+</style>
