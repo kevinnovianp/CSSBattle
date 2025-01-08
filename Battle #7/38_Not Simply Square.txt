@@ -1,0 +1,21 @@
+<p a><p a><p b>
+<p a><p a><p c>
+<p b><p c>
+<style>
+  body,p{
+    margin:0;
+    display:grid;
+    background:#293462;
+    grid-template-columns:150px 50px 100px;
+    grid-template-rows:150px 50px 100px;
+  }
+  p{
+    background:#FFF1C1;
+  }
+  [b]{
+    background:#FE5F55;
+  }
+  [c]{
+    background:#A64942;
+  }
+</style>
