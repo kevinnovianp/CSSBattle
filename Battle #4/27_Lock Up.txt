@@ -1,0 +1,21 @@
+<div a><div b></div></div>
+<style>
+  body,div{
+    background:#E38F66;
+    display:grid;
+    place-items:center;
+  }
+  div{
+    width:200;
+    height:200;
+    background:#AA445F;
+    border-radius:50%;
+  }
+  [b]{
+    width:80;
+    height:80;
+    border:31px solid;
+    border-color:#F7EC7D #AA445F;
+    rotate:45deg;
+  }
+</style>
