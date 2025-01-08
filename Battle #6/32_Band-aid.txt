@@ -1,0 +1,37 @@
+<div>
+  <p a><p b><p a>
+  <p c><p d><p c>
+  <p a><p b><p a>
+</div>
+<style>
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div{
+    rotate:45deg;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  p{
+    margin:0;
+    width:20;
+    height:20;
+  }
+  [b]{
+    width:50;
+    height:75;
+    background:#A3A368;
+  }
+  [c]{
+    width:75;
+    height:50;
+    background:#F3AC3C;
+  }
+  [d]{
+    width:50;
+    height:50;
+    background:#FBE18C;
+  }
+</style>
