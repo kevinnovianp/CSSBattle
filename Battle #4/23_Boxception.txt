@@ -1,0 +1,26 @@
+<div a><div b><a c></a></div></div>
+<style>
+  body{
+    background:#F3AC3C;
+    display:grid;
+    place-content:center;
+  }
+  [a],[b],[c]{
+    width:200;
+    height:200;
+    background:#1A4341;
+    display:flex;
+    align-items:end;
+  }
+  [b]{
+    width:100;
+    height:100;
+    justify-content:end;
+    background:#998235;
+  }
+  [c]{
+    width:50;
+    height:50;
+    background:#F3AC3C;
+  }
+</style>
