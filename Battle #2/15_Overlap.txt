@@ -1,0 +1,23 @@
+<p a><p b>
+<style>
+  body{
+    background:#09042A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  p{
+    margin:0;
+    width:150;
+    height:150;
+    border-radius:50%;
+  }
+  [a]{
+    box-shadow: 100px 0 #E78481;
+    translate:25px;
+  }
+  [b]{
+    box-shadow: -100px 0 #7B3F61;
+    translate:-25px;
+  }
+</style>
