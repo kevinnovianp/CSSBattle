@@ -1,0 +1,31 @@
+<p g b><p y a><p g a><p y b>
+<p y a c><p g b><p y b><p g a c>
+<style>
+  body{
+    background:#1A4341;
+    display:grid;
+    place-content:center;
+    grid-template-columns:auto auto auto auto;
+    gap: 20px;
+  }
+  p{
+    margin:0;
+    width:50;
+    height:50;
+  }
+  [g]{
+    background:#998235;
+  }
+  [y]{
+    background:#F3AC3C;
+  }
+  [a]{
+    border-radius:50% 50% 0 0;
+  }
+  [b]{
+    border-radius:50%;
+  }
+  [c]{
+    scale:1 -1;
+  }
+</style>
