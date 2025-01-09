@@ -1,0 +1,29 @@
+<p o><p d><p><p>
+<style>
+  body {
+    background:#191919;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  p{
+    width:40;
+    height:40;
+    background:#191919;
+    border:20px solid #8F8F8F;
+    border-radius:50%;
+    margin:23 1 0;
+  }
+  [o] {
+    border-color:#714B67;
+  }
+  [d]:after{
+    content:"";
+    display:block;
+    height:65;
+    width:20;
+    background:#8F8F8F;
+    translate:40px -40px;
+    border-radius:20px;
+  }
+</style>
