@@ -1,0 +1,31 @@
+<p s r><p e w>
+<p s w><p e r>
+<style>
+  body,p{
+    margin:0;
+    background:linear-gradient(#F7F3DA 130px,#D25B70 130px 170px,#F7F3DA 170px);
+    display:grid;
+    align-content:center;
+    grid-template-columns:auto auto;
+  }
+  p{
+    width:240;
+    height:40;
+    background:#dd6b4d;
+    translate:-40px 0;
+  }
+  [s]{
+    justify-self:start;
+  }
+  [e]{
+    justify-self:end;
+  }
+  [w]{
+    background:#F7F3DA;
+    border-radius:20px;
+  }
+  [r]{
+    background:#D25B70;
+    border-radius:10px;
+  }
+</style>
