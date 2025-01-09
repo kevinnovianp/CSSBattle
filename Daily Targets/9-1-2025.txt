@@ -1,0 +1,35 @@
+<p c><p><p a><p b>
+<style>
+  body,p{
+    background:#FADE8B;
+    margin:0;
+  }
+  p{
+    position:absolute;
+    width:40;
+    height:160;
+    background:#61A74E;
+    top:15;
+    right:255;
+  }
+  [a],[b],[c]{
+    height:40;
+    background:#FADE8B;
+    border-radius:50%;
+    border:40px solid #61A74E;
+    right:65;
+  }
+  [b]{
+    left:65;
+    top:165;
+  }
+  [c]{
+    width:160;
+    height:160;
+    border:40px solid;
+    border-color:#FADE8B #61A74E#FADE8B #FADE8B;
+    rotate:45deg;
+    top:5;
+    left:55;
+  }
+</style>
