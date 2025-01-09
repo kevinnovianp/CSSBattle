@@ -1,0 +1,23 @@
+<p a><p b><p a>
+<style>
+  body,div{
+    background:#6592CF;
+    display:flex;
+    justify-content:center;
+    margin:50;
+  }
+  p{
+    margin:-10;
+    align-self:start;
+    width:80;
+    height:80;
+    border-radius:50%;
+    border:20px solid;
+    border-color:#060F55 #6592CF #6592CF #060F55;
+    rotate:45deg;
+  }
+  [b]{
+    rotate:225deg;
+    margin-top:90;
+  }
+</style>
