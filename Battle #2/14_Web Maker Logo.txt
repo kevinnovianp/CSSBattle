@@ -1,0 +1,31 @@
+<p a><p b><p c><p d>
+<style>
+  body{
+    background:#F2F2B6;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  p{
+    border-left:75px solid transparent;
+    border-right:75px solid transparent;
+    border-top:130px solid #FD4602;
+  }
+  [a]{
+    translate:160px;
+    border-top-color:#FF6D00;
+    z-index:1;
+  }
+  [b]{
+    translate:30px;
+  }
+  [c],[d]{
+    rotate:180deg;
+    translate:-30px;
+  }
+  [d]{
+    translate:-160px;
+    border-top-color:#FF6D00;
+    z-index:-1;
+  }
+</style>
