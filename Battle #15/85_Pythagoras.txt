@@ -1,0 +1,27 @@
+<p><p g><p y>
+<style>
+  body{
+    background:#D25B70;
+    display:grid;
+    place-items:center;
+  }
+  p{
+    margin:0;
+    width:100;
+    height:100;
+    background:#F7F3DA;
+    position:absolute;
+    translate:0 50px;
+  }
+  [g],[y]{
+    translate:-56px -42px;
+    rotate:37deg;
+    scale:0.6;
+    background:#6CB3A9;
+  }
+  [y]{
+    translate:42px -56px;
+    scale:0.8;
+    background:#F6DF96;
+  }
+</style>
