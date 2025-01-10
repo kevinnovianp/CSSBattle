@@ -1,0 +1,16 @@
+<p a>
+<style>
+  body,p{
+    background:#998235;
+    margin:0;
+  }
+  p{
+    position:absolute;
+    rotate:45deg;
+    width:25;
+    height:400;
+    background:#FCBE5C;
+    translate:292px 0;
+    box-shadow: 25px 0 #0B2429,75px 0 #FCBE5C,100px 0 #0B2429;
+  }
+</style>
