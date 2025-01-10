@@ -1,0 +1,25 @@
+<p a><p b>
+<style>
+  body,p{
+    margin:0;
+    background:#FFE4E0;
+  }
+  p{
+    position:absolute;
+  }
+  [a]{
+    width:200;
+    height:200;
+    border-radius:50%;
+    border: 50px solid;
+    border-color:#FFE4E0 #E05947 #E05947 #FFE4E0;
+    rotate:45deg;
+    translate:50px -40px;
+  }
+  [b]{
+    width:50;
+    height:150;
+    background:#E05947;
+    translate:175px 90px;
+  }
+</style>
