@@ -1,0 +1,28 @@
+<p a><p><p a><p b>
+<style>
+  body,p{
+    margin:0;
+    background:#09042A;
+    display:grid;
+    place-content:center;
+  }
+  p{
+    width:60;
+    height:46;
+    background:#E78481;
+  }
+  [a],[b]{
+    height:60;
+    border-radius:50%;
+    background:#F5BB9C;
+    outline:10px solid #09042A;
+    z-index:1;
+  }
+  [b]{
+    position:absolute;
+    background:#09042A;
+    outline:10px solid #E78481;
+    translate:110px 120px;
+    -webkit-box-reflect:right 60px;
+  }
+</style>
