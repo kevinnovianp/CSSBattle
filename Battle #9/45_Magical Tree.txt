@@ -1,0 +1,24 @@
+<p x><p y>
+<style>
+  body{
+    background:#1A4341;
+    margin:0;
+    display:grid;
+    justify-content:center;
+  }
+  p{
+    margin:0;
+    width:90;
+    height:120;
+  }
+  [x]{
+    box-shadow:0 0 0 30px #998235,0 0 0 60px #1A4341,0 0 0 90px #F3AC3C,0 0 0 120px #1A4341,0 60px 0 90px #998235;
+  }
+  [y]{
+    position:absolute;
+    width:30;
+    height:300;
+    background:#F3AC3C;
+    justify-self:center;
+  }
+</style>
