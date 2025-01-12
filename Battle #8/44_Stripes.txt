@@ -1,0 +1,27 @@
+<a>
+<style>
+  body{
+    background:#1A4341;
+    display:grid;
+    place-items:center;
+  }
+  a{
+    width:160;
+    height:180;
+    background:repeating-linear-gradient(#F3AC3C 0 20px, #1A4341 20px 40px);
+  }
+  a:before,a:after{
+    content:"";
+    display:block;
+    width:250;
+    height:280;
+    border-radius:50%;
+    background: #1A4341;
+  }
+  a:before {
+    translate:-220.5px -50px;
+  }
+  a:after {
+    translate:130.5px -330px;
+  }
+</style>
