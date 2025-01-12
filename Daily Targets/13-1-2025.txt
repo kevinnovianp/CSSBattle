@@ -1,0 +1,42 @@
+<div>
+  <a><a b y><a c z><a d z><a e y><a f>
+</div>
+<style>
+  body{
+    background:#668884;
+    margin:30;
+  }
+  div{
+    width:340;
+    height:240;
+    background:#EED9D9;
+    display:grid;
+  }
+  a{
+    width:86;
+    height:40;
+    background:#668884;
+    margin-left:21px;
+  }
+  [b]{
+    margin-left:34px;
+  }
+  [c]{
+    margin-left:55px;
+  }
+  [d]{
+    margin-left:89px;
+  }
+  [e]{
+    margin-left:144px;
+  }
+  [f]{
+    margin-left:233px;
+  }
+  [y]{
+    width:162;
+  }
+  [z]{
+    width:196;
+  }
+</style>
