@@ -1,0 +1,26 @@
+<div>
+  <p><p><p>
+  <p><p><p>
+  <p><p><p>
+</div>
+<style>
+  body,div,p{
+    margin:10;
+    background:#587795;
+    display:grid;
+    place-content:center;
+  }
+  div{
+    width:160;
+    height:160;
+    background:#E8AD6D;
+    grid-template-columns:auto auto auto;
+    justify-content:space-between;
+    align-content:space-between;
+  }
+  p{
+    width:20;
+    height:20;
+    border-radius:50%;
+  }
+</style>
