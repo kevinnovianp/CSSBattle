@@ -1,0 +1,19 @@
+<a g><a><a r>
+<a g><a g><a g>
+<a r><a><a g>
+<style>
+  body{
+    margin:0;
+    background:#FBFDB7;
+    display:grid;
+    justify-content:center;
+    grid-template-rows:120px 60px 120px;
+    grid-template-columns:60px 160px 60px;
+  }
+  [g]{
+    background:#46BA67;
+  }
+  [r]{
+    background:#D95362;
+  }
+</style>
