@@ -1,0 +1,29 @@
+<a a><a b><a c>
+<style>
+  body,a{
+    margin:0;
+    background:#343D42;
+    display:grid;
+    place-content:center;
+  }
+  a{
+    background:#7C87D1;
+    width:220;
+  }
+  [a]{
+    height:110;
+    border-radius:120px 120px 0 0;
+    margin-top:-50px;
+  }
+  [b]{
+    margin-top:20px;
+    height:40;
+  }
+  [c]{
+    width:40;
+    height:75;
+    position:absolute;
+    background:#343D42;
+    translate:180px 75px;
+  }
+</style>
