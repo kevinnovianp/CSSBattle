@@ -1,0 +1,51 @@
+<a a></a><a b></a><a c></a><a d></a>
+<div>
+  <a l></a><a l x></a><a l x></a><a m></a><a r x></a><a r x></a><a r></a>
+</div>
+<style>
+  body{
+    margin:0;
+    margin-top:20px;
+    background:#67AED4;
+    display:flex;
+    flex-direction:column;
+  }
+  a{
+    height:60;
+    background:#FFFFFF;
+    align-self:center;
+  }
+  [a]{
+    width:12;
+  }
+  [b]{
+    width:60;
+  }
+  [c]{
+    width:100;
+  }
+  [d]{
+    width:400;
+    height:20;
+  }
+  div{
+    height:80;
+    width:400;
+    background:#FFFFFF;
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+  }
+  [l],[r],[m]{
+    height:80;
+    width:30;
+    background:#67AED4;
+  }
+  [x]{
+    width:40;
+  }
+  [m]{
+    width:60;
+    background:#0F2836;
+  }
+</style>
