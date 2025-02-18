@@ -1,0 +1,34 @@
+<div a><div b></div><a></a></div>
+<style>
+  body,[a]{
+    margin:0;
+    background:#F8B140;
+    display:grid;
+    place-content:center;
+  }
+  [a]{
+    width:180;
+    height:180;
+    background:#FFFFFF;
+    border-radius:50%;
+    border:30px solid black;
+  }
+  [b]{
+    width:50;
+    height:50;
+    background:#FFFFFF;
+    border-radius:50%;
+    border:51px solid;
+    border-color:#FFFFFF #67AED4 #67AED4 #FFFFFF;
+    rotate:45deg;
+  }
+  a{
+    width:50;
+    height:25;
+    border-radius:25px 25px 0 0;
+    background:#67AED4;
+    position:absolute;
+    translate:16px 65px;
+    -webkit-box-reflect:right 48px;
+  }
+</style>
