@@ -1,0 +1,22 @@
+<div><p><p></div>
+<style>
+  body,p{
+    margin:0;
+    background:#46BA67;
+    display:flex;
+    justify-content:center;
+  }
+  div{
+    width:300;
+    height:200;
+    background:#D9D9D9;
+    align-self:end;
+    display:flex;
+    justify-content:space-between;
+  }
+  p{
+    width:80;
+    height:80;
+    background:#343D42;
+  }
+</style>
