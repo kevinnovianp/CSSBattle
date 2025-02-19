@@ -1,0 +1,27 @@
+<div a></div><div b><a></a><a></a><a></a></div>
+<style>
+  body{
+    background:#D95362;
+    display:grid;
+    grid-auto-flow:column;
+    place-content:center;
+    gap:20px;
+  }
+  [a]{
+    width:80;
+    height:220;
+  }
+  [a],a{
+    background:#FDFFE9;
+  }
+  [b],a{
+    width:50;
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+  }
+  a{
+    height:50;
+    border-radius:50%;
+  }
+</style>
