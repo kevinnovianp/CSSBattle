@@ -1,0 +1,30 @@
+<div a><a b></a><a c></a></div>
+<style>
+  body{
+    margin:15;
+    background:#183539;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+  }
+  [a]{
+    width:100;
+    height:270;
+    border-radius:50px 50px 0 0;
+    background:#EBE77E;
+    display:grid;
+  }
+  [b]{
+    width:50;
+    height:15.5;
+    background:#183539;
+    margin-top:89px;
+  }
+  [c]{
+    width:25;
+    height:50;
+    border-radius:0 25px 25px 0;
+    background:#183539;
+    margin-top:36px;
+  }
+</style>
