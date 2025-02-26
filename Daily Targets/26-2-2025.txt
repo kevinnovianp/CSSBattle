@@ -1,0 +1,36 @@
+<div a><a p x></a></div>
+<div b><a k x><a l y><a m x></a></div>
+<div c><a p y><a p y></a></div>
+<style>
+  body{
+    margin:0;
+    background:#46BA67;
+  }
+  div{
+    width:240;
+    margin-left:80;
+  }
+  [b],[c]{
+    display:flex;
+    justify-content:space-between;
+  }
+  [a]{
+    display:flex;
+    justify-content:center;
+  }
+  [k],[l],[m]{
+    width:40;
+    height:40;
+    border-radius:50%;
+  }
+  [p]{
+    width:40;
+    height:130;
+  }
+  [x]{
+    background:#FAE29E;
+  }
+  [y]{
+    background:#4C4C6B;
+  }
+</style>
