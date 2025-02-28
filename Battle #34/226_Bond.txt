@@ -1,0 +1,17 @@
+<a><a>
+<style>
+  body{
+    margin:0;
+    background:linear-gradient(#558C90 41.6%,#FFFFFF 41.6% 58.4%,#558C90 58.4%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  a{
+    width:50;
+    height:50;
+    background:#325853;
+    border-radius:50%;
+    border: solid #FFFFFF 38px;
+  }
+</style>
