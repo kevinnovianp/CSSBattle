@@ -1,0 +1,35 @@
+<div p><div r x><div b m></div></div></div>
+<div r><div b y><div p n></div></div></div>
+<style>
+  body{
+    background:#37212D;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div{
+    width:120;
+    height:120;
+    display:flex;
+  }
+  [x],[y]{
+    border-radius:120px 0 0 0;
+  }
+  [y]{
+    rotate:90deg;
+  }
+  [m],[n]{
+    height:60;
+    border-radius:60px 60px 0 0;
+    margin-top:60px;
+  }
+  [p]{
+    background:#76608A;
+  }
+  [r]{
+    background:#EE9B99;
+  }
+  [b]{
+    background:#BCE6E9;
+  }
+</style>
