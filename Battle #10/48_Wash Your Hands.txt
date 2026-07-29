@@ -1,0 +1,17 @@
+<div><span></span></div>
+<style>
+  body{
+    background:#293462; 
+  }
+  body, div{
+    display:grid; place-items:center;
+  }
+  div{
+    width:200px; height:100px; background:#FE5F55; border-radius:20px;
+    margin-bottom:20px; box-shadow: 0px 20px 0px 0px #A64942;
+  }
+  span{
+    width:70%; height:40%; background:#A64942;
+    border-radius:20px;
+  }
+</style>
