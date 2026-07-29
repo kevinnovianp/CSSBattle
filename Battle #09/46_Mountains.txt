@@ -1,0 +1,21 @@
+<div>
+  <p a><p b>
+</div>
+<style>
+  body{
+    background:#293462; display:grid; place-items:center;
+  }
+  div{
+    width:50vw; height:50vw; background:#FFF1C1;
+    border-radius:50%; overflow:hidden; rotate:45deg;
+  }
+  p{
+    width:80%; height:80%; background:#FE5F55;
+  }
+  [a]{
+    translate:100px 25px;
+  }
+  [b]{
+    translate:70px -22px;
+  }
+</style>
