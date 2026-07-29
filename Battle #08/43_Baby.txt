@@ -1,0 +1,30 @@
+<div>
+  <p><p>
+</div>
+<span a></span>
+<style>
+  body{
+    background:#293462; display:grid; place-items:center;
+  }
+  div{
+    width:200px; height:200px; background:#FE5F55;
+    border-radius: 50% 50% 25% 25%;
+    display:flex; overflow:hidden;
+  }
+  p, p:before, [a]{
+    background:#FFF1C1;
+  }
+  p{
+    width:50%; height:50%;
+    border-radius:50%; translate:0px -66%;
+  }
+  p:before {
+    width:60px; height:60px;
+    display:block; content:"";
+    border-radius: 50%; translate:20px 140px;
+  }
+  [a]{
+    width:40px; height:10px; border-radius:5px;
+    position:absolute; top:220px;
+  }
+</style>
