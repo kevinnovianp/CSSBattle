@@ -1,0 +1,17 @@
+<div b></div>
+<div a>
+<style>
+  body{
+    background:#19191A;
+    display:grid; place-content:center;
+  }
+  [a]{
+    width:150px; height:150px; border-radius:50%;
+    background:conic-gradient(#4F77FF 50%,#9AD5FF 50% 75%, #4F77FF 75% 10%);
+    translate:0 -88px;
+  }
+  [b]{
+    width:75px; height:125px; background:#F9E492;
+    translate:0 112.5px;
+  }
+</style>
