@@ -1,5 +1,4 @@
-<div b></div>
-<div a>
+<div b></div><div a></div>
 <style>
   body{
     background:#19191A;
@@ -7,7 +6,7 @@
   }
   [a]{
     width:150px; height:150px; border-radius:50%;
-    background:conic-gradient(#4F77FF 50%,#9AD5FF 50% 75%, #4F77FF 75% 10%);
+    background:conic-gradient(#4F77FF 50%,#9AD5FF 50% 75%, #4F77FF 75%);
     translate:0 -88px;
   }
   [b]{
