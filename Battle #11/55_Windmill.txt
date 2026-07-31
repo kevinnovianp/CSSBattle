@@ -1,0 +1,32 @@
+<div><p a><p b><p c><p d></div>
+<style>
+  body{
+    background:#191919; display:grid; place-items: center;
+  }
+  div{
+    display:grid; grid-template-columns:repeat(2, 1fr)
+  }
+  p{
+    margin:0;
+  }
+  [a],[d]{
+    background:#F9E492;
+    width:100px; height:50px; 
+    border-radius:50px 50px 0 0;
+  }
+  [b],[c]{
+    background:#4F77FF;
+    width:50px; height:100px; 
+    border-radius:0 50px 50px 0;
+  }
+  [a]{
+    translate:0 50px;
+  }
+  [c]{
+    rotate:180deg;
+    translate:50px 0;
+  }
+  [d]{
+    rotate:180deg;
+  }
+</style>
