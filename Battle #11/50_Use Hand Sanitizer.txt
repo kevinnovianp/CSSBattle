@@ -1,0 +1,54 @@
+<p b a><p b><p b c>
+<div>
+  <p x><p>
+</div>
+<span>
+  <p d><p><p>
+</span>
+<style>
+  body{
+    background:#1A4341;
+    margin-top:50px;
+    display:flex; flex-direction:column; align-items:center;
+  }
+  p{
+    margin:0; background:#F3AC3C;
+  }
+  [b]{
+    height:20px; width:20px;
+  }
+  [a]{
+    width:150px; border-radius:10px 10px 0;
+    translate:25px;
+  }
+  [c]{
+    width:50px; border-radius:10px 10px 0 0;
+  }
+  div{
+    width:100px; height:140px; border-radius:20px;
+    background:linear-gradient(#F3AC3C 50px, #998235 50px);
+    display:flex;
+    & p{
+      margin-top:30px;
+      width:50%; height:50px; border-radius:50%;
+    }
+  }
+  [x]{
+    background:#998235;
+  }
+  span{
+    translate:90px -180px;
+    width:20px; height:80px;
+    display:grid;
+    gap:10px;
+    & p{
+      background:#998235;
+      width:20px; height:20px;
+      border-radius:50%;
+    }
+    & [d]{
+      background:#F3AC3C;
+      border-radius:0 0 10px 10px;
+    }
+  }
+</style>
