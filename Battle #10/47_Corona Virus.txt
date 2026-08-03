@@ -1,0 +1,32 @@
+<p b><p c><p d>
+<div><p a></div>
+<style>
+  body{
+    background:#1A4341; display:grid; place-items:center;
+  }
+  p{
+    margin:0;
+  }
+  div,[a]{
+    width:100px; height:100px; 
+    background:#F3AC3C;
+    border-radius:50%;
+  }
+  [a]{
+    background:#998235; width:30px; height:30px; translate: 20px 20px;
+    box-shadow: 40px -10px 0 -10px #998235, 15px 40px 0 -5px #998235;
+  }
+  [b],[c],[d]{
+    position:absolute;
+    width:10px; height:180px; background:#F3AC3C; border-radius:5px;
+    translate:0 -10px;
+  }
+  [c]{
+    rotate:60deg;
+    translate:8px -5px;
+  }
+  [d]{
+    rotate:120deg;
+    translate:8px 5px;
+  }
+</style>
