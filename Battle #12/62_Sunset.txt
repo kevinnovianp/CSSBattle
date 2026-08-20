@@ -1,0 +1,26 @@
+<div>
+  <p c><p><p b>
+</div>
+<style>
+  body{
+    display:grid; place-items:center; background:#191919;
+  }
+  div{
+    width:150px; height:200px; background:#F2AD43;
+    border-radius:75px 75px 20px 20px;
+    overflow:hidden;
+  }
+  p{
+    margin:0; border-radius:50%;
+    width:200px; height:200px; background:#E08027;
+    translate:-100px 40px;
+  }
+  [b]{
+    background:#824B20;
+    translate:50px -160px;
+  }
+  [c]{
+    width:60px; height:60px; background:#FFF58F;
+    translate:45px 90px;
+  }
+</style>
