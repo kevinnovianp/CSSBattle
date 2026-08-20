@@ -1,0 +1,31 @@
+<div><p a x><p b></div><div><p a y><p b></div><div><p a x><p b></div>
+<div c></div>
+<div><p a><p b></div><div><p a><p b></div><div><p a><p b></div><div><p a><p b></div>
+<style>
+  body{
+    background:#6592CF; display:flex;
+    justify-content:space-evenly; align-items:center; margin:20px 15px 0 15px;
+  }
+  div{
+    display:flex; flex-direction:column; align-items: center;
+  }
+  p{
+    margin:0;
+    background:#243D83;
+  }
+  [a]{
+    width:20px; height:20px; border-radius:50%;
+  }
+  [b]{
+    width:10px; height:50px; margin-top:-10px;
+  }
+  [c]{
+    width:5px; height:10px;
+  }
+  [x]{
+    box-shadow:0 0 0 10px #EEB850;
+  }
+  [y]{
+    box-shadow:0 -10px 0 20px #EEB850;
+  }
+</style>
