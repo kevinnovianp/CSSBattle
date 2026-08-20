@@ -1,0 +1,32 @@
+<div>
+  <p><p><p><p m>
+  <p l><p r>
+</div>
+<style>
+  body{
+    background:#191919; display:grid; place-content:center;
+  }
+  div{
+    width:150px; height: 150px; background:#4F77FF;
+    border-radius:50%; overflow:hidden;
+    display:flex; flex-direction:column; justify-content:space-evenly;
+  }
+  p{
+    margin:0; height:10px; background:#191919;
+  }
+  [m],[l],[r]{
+    width:10px; height:150px; position:absolute;
+    align-self:center;
+  }
+  [l],[r]{
+    width:200px; height:190px; position:absolute;
+    border-radius:200px; background:transparent;
+    border:10px solid #191919;
+  }
+  [l]{
+    left:25px;
+  }
+  [r]{
+    right:25px;
+  }
+</style>
