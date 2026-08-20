@@ -1,0 +1,41 @@
+<div a>
+  <p x>
+  <div b>
+    <p><p e><p><p f>
+  </div>
+  <div c><div d>
+</div>
+<style>
+  body{
+    background:#F9E492; display:grid; place-content:center;
+  }
+  [a]{
+    width:100px; height:145px;
+  }
+  [b]{
+    height:60px; display:flex; flex-direction:row; align-items:flex-end;
+  }
+  [c],[d],p{
+    background:#191919;
+  }
+  [c],[d]{
+    height:40px; border-radius:0 0 10px 10px;
+  }
+  [d]{
+    height:85px; width:50%; margin-left:25px;
+  }
+  p{
+    width:20px; height:45px; border-radius:10px;
+    margin:0 0 5px 5px;
+  }
+  [e]{
+    height:55px;
+  }
+  [f]{
+    height:35px;
+  }
+  [x]{
+    height:65px; outline:5px solid #F9E492; position:absolute;
+    rotate:60deg; translate:2px 32px;
+  }
+</style>
