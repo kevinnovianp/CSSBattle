@@ -1,0 +1,36 @@
+<div>
+  <p a><p b><p c><p d>
+</div>
+<style>
+  body{
+    background:#191919;
+    display:grid; place-content:center;
+  }
+  div{
+    background:#4F77FF;
+    width:110px; height:110px;
+    display:grid;
+    grid-template:repeat(2,1fr)/repeat(2,1fr);
+  }
+  p{
+    width:30px; height:30px;
+    margin:0; border-radius:50%;
+    background:#4F77FF;
+  }
+  [a]{
+    translate:-20px -20px;
+    box-shadow:7.5px 7.5px 0 7.5px #F9E492, 15px 15px 0 15px #191919
+  }
+  [b]{
+    translate:45px -20px;
+    box-shadow:-7.5px 7.5px 0 7.5px #F9E492, -15px 15px 0 15px #191919
+  }
+  [c]{
+    translate:-20px 45px;
+    box-shadow:7.5px -7.5px 0 7.5px #F9E492, 15px -15px 0 15px #191919
+  }
+  [d]{
+    translate:45px 45px;
+    box-shadow:-7.5px -7.5px 0 7.5px #F9E492, -15px -15px 0 15px #191919
+  }
+</style>
